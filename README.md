@@ -1,4 +1,4 @@
-# html-css #7DaysOfCode
+# #7DaysOfCode HTML-CSS
 
 Projeto de treinamento e estudo - #7DaysofCode - Alura  
 Pagina web publicada no github pages
