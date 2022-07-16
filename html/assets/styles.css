@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 1440px;
+  height: 3503px;
+  /* Base/White */
+  background: #FFFFFF;
+}
+
+.navbar{
+  /*Width Fill (1, 440px) Height Hug (80px)*/
+  /* NavBar */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1440px;
+  height: 80px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
