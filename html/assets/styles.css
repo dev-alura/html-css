@@ -1,3 +1,10 @@
+html {
+  font-family: 'Inter';
+  font-style: normal;
+  /* Base/White */
+  background: #FFFFFF;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -7,8 +14,6 @@ body {
   position: relative;
   width: 1440px;
   height: 3503px;
-  /* Base/White */
-  background: #FFFFFF;
 }
 
 .navbar {
@@ -21,8 +26,7 @@ body {
   padding: 0px;
   width: 1440px;
   height: 80px;
-  /* Base/White */
-  background: #FFFFFF;
+
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -38,6 +42,8 @@ body {
   align-items: center;
   padding: 0px;
 
+  /* Base/White */
+  background: #cfcf1e;
   width: 1440px;
   height: 80px;
   /* Inside auto layout */
@@ -61,7 +67,7 @@ body {
   flex-grow: 0;
 }
 
-.principal {
+.nav-itens {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,8 +78,6 @@ body {
   width: 113px;
   height: 24px;
 
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -85,6 +89,20 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
+.principal img {
+  width: 27px;
+  height: 26.99px;
+
+  /*background: #8E2424;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 
 .button-base {
   display: flex;
