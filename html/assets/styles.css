@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@ body{
   background: #FFFFFF;
 }
 
-.navbar{
+.navbar {
   /*Width Fill (1, 440px) Height Hug (80px)*/
   /* NavBar */
   /* Auto layout */
@@ -21,12 +21,145 @@ body{
   padding: 0px;
   width: 1440px;
   height: 80px;
-
   /* Base/White */
   background: #FFFFFF;
   /* Inside auto layout */
   flex: none;
   order: 0;
   align-self: stretch;
+  flex-grow: 0;
+
+}
+
+.nav-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 1440px;
+  height: 80px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 32px;
+
+  width: 1280px;
+  height: 44px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 113px;
+  height: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  color: #3A404E;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 148px;
+  height: 26.99px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  width: 362px;
+  height: 32px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.navegacao {
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  width: 362px;
+  height: 32px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.logo {
+
+  width: 142px;
+  height: 32px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.nav-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 207px;
+  height: 44px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
   flex-grow: 0;
 }
