@@ -76,37 +76,41 @@ body {
   gap: 8px;
 }
 
-.titulo{
-  width: 113px;
-  height: 24px;
-
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 148px;
+  height: 26.99px;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  /* identical to box height, or 133% */
-  color: #3A404E;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.principal img {
+.titulo img {
   width: 27px;
   height: 26.99px;
-
-  /*background: #8E2424;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
+.titulo-text {
+  flex: none;
+  justify-content: center;
+  width: 148px;
+  height: 26.99px; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3A404E;
+  order: 1;
+  flex-grow: 0;
+}
 
 .button-base {
-
   width: 148px;
   height: 26.99px;
 
