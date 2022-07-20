@@ -2,6 +2,11 @@ version: '3.8'
 
 services:
   app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    
+  nginx:
     container_name: nginx
     restart: always
     build:
